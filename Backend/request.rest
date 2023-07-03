@@ -1,0 +1,22 @@
+GET http://localhost:8000/proute
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0OGM3MGExYjk0NDQ2NzlkMjM5MDI5ZSIsImlhdCI6MTY4NzAwNDg4Nn0.2gPyf1nkwZtoFFIyx8x3qefKxmiehj14qeqB5qtJVlQ
+###
+
+POST http://localhost:8000/signin
+Content-Type: application/json
+
+{
+    "name":"akil",
+    "password":"arunakil1234"
+}
+
+###
+
+
+POST http://localhost:8000/login
+Content-Type: application/json
+
+{
+    "email":"akil12@gmail.com",
+    "password":"akil1228$"
+}
